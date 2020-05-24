@@ -37,7 +37,7 @@ let car1 = {
     horsePower: 190,
     price: 20000
 }
-console.log(`ამ მანქანას აქვს შენდეგი მახასიათებლები: \n mark: ${car1.mark}, \n color: ${car1.color}, \n model: ${car1.model}, \n year: ${car1.year}, \n horsePower: ${car1.horsePower}, \n price: ${car1.price} $`)
+// console.log(`ამ მანქანას აქვს შენდეგი მახასიათებლები: \n mark: ${car1.mark}, \n color: ${car1.color}, \n model: ${car1.model}, \n year: ${car1.year}, \n horsePower: ${car1.horsePower}, \n price: ${car1.price} $`)
 
 
 
@@ -64,17 +64,20 @@ let filteredCar = [];
 let array = [];
 
 
-for(let i = 0; i < 3; i++){
-    if(arrayOfCars[i].price < 15000){
-        array.push(arrayOfCars[i].mark);
-        array.push(arrayOfCars[i].model);
-        filteredCar.push(array);
-        array = [];
-        console.log(`${filteredCar[i][0]} ${filteredCar[i][1]}`);
-    }else if(filteredCar.length = 0){
-        console.log('სამწუხაროდ ამ ფასში მანქანას ვერ შეიძენთ');
-    }else if(arrayOfCars[i].price > 15000){
-        continue;
-    }
-}
+// for(let i = 0; i < 3; i++){
+//     if(arrayOfCars[i].price < 15000){
+//         array.push(arrayOfCars[i].mark);
+//         array.push(arrayOfCars[i].model);
+//         filteredCar.push(array);
+//         array = [];
+//         console.log(`${filteredCar[i][0]} ${filteredCar[i][1]}`);
+//     }else if(filteredCar.length = 0){
+//         console.log('სამწუხაროდ ამ ფასში მანქანას ვერ შეიძენთ');
+//     }else if(arrayOfCars[i].price > 15000){
+//         continue;
+//     }
+// }
+
+
+
 
