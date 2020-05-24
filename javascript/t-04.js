@@ -1,7 +1,7 @@
 let car1 = {
     id: "Audi",
     mark: 'Audi',
-    color: 'white',
+    color: 'Blue',
     model: 'A4',
     year: 2019,
     horsePower: 190,
@@ -20,7 +20,7 @@ let car2 = {
 let car3 = {
     id: "Mercedes",
     mark: 'Mercedes',
-    color: 'White',
+    color: 'Silver',
     model: 'G4',
     year: 2019,
     horsePower: 300,
@@ -29,7 +29,7 @@ let car3 = {
 let car4 = {
     id: "Porsche",
     mark: 'Porsche',
-    color: 'Red',
+    color: 'Orange',
     model: 'G4',
     year: 2019,
     horsePower: 300,
